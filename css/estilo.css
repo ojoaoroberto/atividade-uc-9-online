@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    background: #479400;
+    height: 80px;
+    width: 1366px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+label.logo{
+    color: white;
+    font-size: 2em;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold ;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px ;
+    margin: 0 5px;
+    
+}
+
+nav ul li a{
+    color: #fff;
+    padding: 7px 13px;
+    font-size: 1em;
+    border-radius: 3px;
+
+}
+
+nav ul li a:hover{
+    color: #abf16c;
+    background-color: #00000053;
+}
+
+#container-principal{
+    width: 1266px;
+    background-color: #e2fdc8;
+    position: relative;
+    left: 45px;
+    height: 500px;
+}
+
+.conteudo-fifa{
+    width: 1066px;
+    height:400px ;
+   
+}
+
+#alinhar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+
+footer{
+    background-color: #479400;
+    color: #fff;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div img{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: 20px;
+
+}
